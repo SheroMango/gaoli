@@ -1,0 +1,1053 @@
+[ 2014-07-26T10:11:29+08:00 ] 127.0.0.1 /gaoli/index.php?m=Public&a=login
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.050432s ]
+INFO: [ view_template ] --END-- [ RunTime:0.050627s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.072155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072298s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.010686s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004071s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004376s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022982s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003153s ]
+
+[ 2014-07-26T10:11:39+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Public&a=doLogin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+SQL: SHOW COLUMNS FROM `0509_user` [ RunTime:0.401640s ]
+SQL: SELECT * FROM `0509_user` WHERE ( name='s' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.256906s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002171s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.151366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151513s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001367s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000900s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001137s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005359s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2014-07-26T10:11:40+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Index&a=index
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+
+[ 2014-07-26T10:11:43+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.232690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.065588s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.056579s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.047848s ]
+INFO: [ view_template ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.064136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064246s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001330s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005081s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2014-07-26T10:11:46+08:00 ] 127.0.0.1 /gaoli/index.php?m=News&a=ls&p=2
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.009423s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.006875s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 5,5   [ RunTime:0.002528s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004642s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004810s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001124s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000930s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000838s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004229s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2014-07-26T10:11:48+08:00 ] 127.0.0.1 /gaoli/index.php?m=News&a=ls&p=1
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.012562s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.001018s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.002708s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005786s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022410s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001496s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001516s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2014-07-26T10:11:51+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=addNews
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.193350s ]
+SQL: SELECT * FROM `0509_newstype`  [ RunTime:0.005240s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006376s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041046s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001538s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001924s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2014-07-26T10:11:55+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=NewsTpl&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005240s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.007497s ]
+SQL: SELECT * FROM `0509_newstype` ORDER BY sort desc LIMIT 0,2   [ RunTime:0.004387s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008449s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049093s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001830s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003564s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002285s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003531s ]
+
+[ 2014-07-26T10:12:08+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.006278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.019283s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.014298s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025801s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000860s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004839s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2014-07-26T10:12:12+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=addNews
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.011928s ]
+SQL: SELECT * FROM `0509_newstype`  [ RunTime:0.001934s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002391s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002521s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040361s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001441s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001170s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000745s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2014-07-26T10:19:25+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.154976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.000982s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001045s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.032374s ]
+INFO: [ view_template ] --END-- [ RunTime:0.032528s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.061733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061854s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005088s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003822s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2014-07-26T10:19:28+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: fid E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.204865s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 1   [ RunTime:0.005313s ]
+SQL: SELECT * FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 0,10   [ RunTime:0.001302s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.029000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029135s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.120509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000966s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000804s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004325s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2014-07-26T11:10:27+08:00 ] 127.0.0.1 /gaoli/index.php?m=Public&a=login
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007485s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007702s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.069452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069591s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003184s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002637s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001944s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011159s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005691s ]
+
+[ 2014-07-26T11:10:34+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Public&a=doLogin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `0509_user` [ RunTime:0.017184s ]
+SQL: SELECT * FROM `0509_user` WHERE ( name='s' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.001404s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002336s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017099s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001200s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001811s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007638s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2014-07-26T11:10:36+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Index&a=index
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+
+[ 2014-07-26T11:10:39+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.011104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.001681s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001127s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003393s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018637s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001354s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2014-07-26T11:10:48+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Text&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TextAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `0509_text` [ RunTime:0.032188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_text` LIMIT 1   [ RunTime:0.002625s ]
+SQL: SELECT * FROM `0509_text` LIMIT 0,5   [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.008836s ]
+SQL: SELECT `keyword` FROM `0509_route` WHERE ( `obj_type` = 'text' ) AND ( `obj_id` = '4' ) LIMIT 1   [ RunTime:0.001392s ]
+SQL: SELECT `keyword` FROM `0509_route` WHERE ( `obj_type` = 'text' ) AND ( `obj_id` = '3' ) LIMIT 1   [ RunTime:0.000761s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006932s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007060s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030886s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001132s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000955s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001069s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005539s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2014-07-26T11:10:56+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: fid E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.011042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 1   [ RunTime:0.003801s ]
+SQL: SELECT * FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 0,10   [ RunTime:0.010839s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009929s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049691s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001574s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001506s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001389s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001917s ]
+
+[ 2014-07-26T11:10:59+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=add&fid=0
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002742s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034302s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000878s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.024176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.024291s ]
+
+[ 2014-07-26T11:11:38+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=doAdd
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.006324s ]
+SQL: INSERT INTO `0509_txp` (`fid`,`title`,`description`,`content`) VALUES (0,'桌面壁纸','宫崎骏风格','哈哈哈哈哈') [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.013809s ]
+SQL: INSERT INTO `0509_route` (`keyword`,`obj_type`,`obj_id`) VALUES ('壁纸','txp',12) [ RunTime:0.004073s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003295s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016380s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001074s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001125s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001086s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005286s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2014-07-26T11:11:39+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=add&fid=0
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001351s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019606s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001494s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001836s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001569s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008264s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2014-07-26T11:11:40+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: fid E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.013839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 1   [ RunTime:0.031060s ]
+SQL: SELECT * FROM `0509_txp` WHERE ( `fid` = 0 ) LIMIT 0,10   [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.011104s ]
+SQL: SELECT `keyword` FROM `0509_route` WHERE ( `obj_type` = 'txp' ) AND ( `obj_id` = '12' ) LIMIT 1   [ RunTime:0.002527s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001020s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\ed26d92b69aa5ec56748088dfd147c82.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\ed26d92b69aa5ec56748088dfd147c82.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\ed26d92b69aa5ec56748088dfd147c82.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.028134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028235s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2014-07-26T11:11:43+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=edit&id=12
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.006807s ]
+SQL: SELECT * FROM `0509_txp` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.006123s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.064650s ]
+SQL: SELECT * FROM `0509_route` WHERE ( `obj_type` = 'txp' ) AND ( `obj_id` = 12 ) LIMIT 1   [ RunTime:0.003564s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003368s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046590s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001059s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004852s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001793s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2014-07-26T11:11:48+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Txp&a=ls&fid=12
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `0509_txp` [ RunTime:0.007055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_txp` WHERE ( `fid` = 12 ) LIMIT 1   [ RunTime:0.002712s ]
+SQL: SELECT * FROM `0509_txp` WHERE ( `fid` = 12 ) LIMIT 0,10   [ RunTime:0.000935s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\gaoli\app\Lib\Action\Home\TxpAction.class.php 第 31 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001419s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000924s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007612s ]
+
+[ 2014-07-26T12:08:57+08:00 ] 127.0.0.1 /gaoli/index.php?m=Public&a=login
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008348s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011776s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011926s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049902s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007149s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004699s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024620s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005682s ]
+
+[ 2014-07-26T12:09:04+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Public&a=doLogin
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004423s ]
+SQL: SHOW COLUMNS FROM `0509_user` [ RunTime:0.010055s ]
+SQL: SELECT * FROM `0509_user` WHERE ( name='s' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.003275s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017024s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006171s ]
+
+[ 2014-07-26T12:09:06+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Index&a=index
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006156s ]
+
+[ 2014-07-26T12:09:09+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004308s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.020338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.001049s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.011774s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008265s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.053413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053741s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005250s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004846s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022592s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005051s ]
+
+[ 2014-07-26T12:09:13+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=updateNews&id=9
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.014768s ]
+SQL: SELECT * FROM `0509_news` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.015198s ]
+SQL: SELECT * FROM `0509_newstype`  [ RunTime:0.001327s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010279s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e6570163d4350913e03b68da758e6b04.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e6570163d4350913e03b68da758e6b04.php 第 42 行.
+NOTIC: [8] Use of undefined constant cover - assumed 'cover' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e6570163d4350913e03b68da758e6b04.php 第 52 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.072302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072400s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004141s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017173s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003549s ]
+
+[ 2014-07-26T12:09:17+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=NewsTpl&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.011261s ]
+SQL: SELECT * FROM `0509_newstype` ORDER BY sort desc LIMIT 0,2   [ RunTime:0.002666s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007784s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007922s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.062197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062288s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003491s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002496s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012857s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005898s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006017s ]
+
+[ 2014-07-26T12:09:17+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=NewsTpl&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005266s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.010349s ]
+SQL: SELECT * FROM `0509_newstype` ORDER BY sort desc LIMIT 0,2   [ RunTime:0.001239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005031s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006335s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003596s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004031s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.014254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008505s ]
+
+[ 2014-07-26T12:09:22+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=News&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004770s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\NewsAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `0509_news` [ RunTime:0.012533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_news` LIMIT 1   [ RunTime:0.007567s ]
+SQL: SELECT * FROM `0509_news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.002414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\faba21302ba6c4aa250bc8869ae91a76.php 第 84 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049119s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003317s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005193s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004633s ]
+
+[ 2014-07-26T12:09:26+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=NewsTpl&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005650s ]
+SQL: SHOW COLUMNS FROM `0509_newstype` [ RunTime:0.008019s ]
+SQL: SELECT * FROM `0509_newstype` ORDER BY sort desc LIMIT 0,2   [ RunTime:0.004790s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\0790a88d3a0e1f8e2d9efa8c5f61c987.php 第 68 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.045176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007445s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006530s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003952s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024864s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004391s ]
+
+[ 2014-07-26T12:09:35+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005526s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.030452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.001414s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.003567s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009473s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009627s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.049753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004448s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004041s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.011066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008017s ]
+
+[ 2014-07-26T12:09:37+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Text&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006092s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\TextAction.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `0509_text` [ RunTime:0.017344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_text` LIMIT 1   [ RunTime:0.003432s ]
+SQL: SELECT * FROM `0509_text` LIMIT 0,5   [ RunTime:0.006318s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.005826s ]
+SQL: SELECT `keyword` FROM `0509_route` WHERE ( `obj_type` = 'text' ) AND ( `obj_id` = '4' ) LIMIT 1   [ RunTime:0.002871s ]
+SQL: SELECT `keyword` FROM `0509_route` WHERE ( `obj_type` = 'text' ) AND ( `obj_id` = '3' ) LIMIT 1   [ RunTime:0.006833s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009979s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 81 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\a23445b859166861462ecdd75bb7ef50.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.043257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003607s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005902s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004948s ]
+
+[ 2014-07-26T16:20:44+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006071s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.010035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.003419s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.003144s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.057553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057675s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.009893s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023492s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003171s ]
+
+[ 2014-07-26T16:25:11+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.009091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.000782s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001584s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005290s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005004s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002808s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003888s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015129s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002887s ]
+
+[ 2014-07-26T16:25:11+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.010606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.006698s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002910s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000888s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002385s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005944s ]
+
+[ 2014-07-26T16:25:16+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.023720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.005114s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002375s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034091s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002190s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003757s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004101s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013756s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002268s ]
+
+[ 2014-07-26T16:29:57+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=del
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005242s ]
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.014653s ]
+SQL: DELETE FROM `0509_route` WHERE ( `id` IN ('19') ) [ RunTime:0.036546s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003056s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003362s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002196s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012659s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004336s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004461s ]
+
+[ 2014-07-26T16:29:59+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Route&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\RouteAction.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `0509_route` [ RunTime:0.018187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_route` LIMIT 1   [ RunTime:0.001746s ]
+SQL: SELECT * FROM `0509_route` LIMIT 0,5   [ RunTime:0.001236s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005889s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006065s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid E:\wamp\www\gaoli\app\Runtime\Cache\Home\26ee911e64241b29d66ad7aaa89f422c.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001234s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003294s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004413s ]
+

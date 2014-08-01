@@ -1,0 +1,52 @@
+[ 2014-07-21T10:39:37+08:00 ] ERR: (ThinkException) 模板不存在[./app/Tpl/Mobile/Gaoli/index.html]
+[ 2014-07-21T10:39:42+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+
+[ 2014-07-21T10:39:46+08:00 ] 127.0.0.1 /gaoli/index.php?g=Home&m=Article&a=ls
+NOTIC: [8] Use of undefined constant DEFAULT_THEME - assumed 'DEFAULT_THEME' E:\wamp\www\gaoli\app\Conf\Home\config.php 第 8 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [8] Undefined variable: search E:\wamp\www\gaoli\app\Lib\Action\Home\ArticleAction.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `0509_article` [ RunTime:0.012221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `0509_article` WHERE ( `pid` = '0' ) LIMIT 1   [ RunTime:0.002243s ]
+SQL: SELECT * FROM `0509_article` WHERE ( `pid` = '0' ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000695s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008077s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008307s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 84 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 86 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 84 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 86 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 84 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 86 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 84 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 86 行.
+NOTIC: [8] Use of undefined constant time_modify - assumed 'time_modify' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 82 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 84 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 85 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\gaoli\app\Runtime\Cache\Home\e3c0c2aaba2f60a116fcd09235d2788a.php 第 86 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.047387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047488s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002271s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001757s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003615s ]
+
