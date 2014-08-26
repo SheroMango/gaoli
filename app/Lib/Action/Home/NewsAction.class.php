@@ -112,6 +112,7 @@ class NewsAction extends HomeAction
             }else{
                 $pid = $this->_get('pid');
             }
+            
             $this->assign('typeList', $this->get_type_list());
             $this->assign('pid', $pid);
             $this->display();
@@ -119,12 +120,6 @@ class NewsAction extends HomeAction
         }
 
         $data = $this->_post();
-  //       if(!empty($_FILES['pic']['name'])){
-		// 	$picList = uploadPic();
-		// 	if($picList['code'] != 'error'){
-  //               $data['cover'] = $picList['pic']['savename'];
-		// 	}
-		// }
 
         $data['time_modify'] = time();
         if(empty($data['id'])){

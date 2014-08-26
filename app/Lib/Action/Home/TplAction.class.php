@@ -60,7 +60,7 @@ class TplAction extends HomeAction
 
         //判断是否为空
         if (empty($delIds)) {
-            $this->error('请选择您要删除的新闻');
+            $this->error('请选择您要删除的模板');
         }
 
         $map['id'] = array('in', $delIds);

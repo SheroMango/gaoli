@@ -129,7 +129,7 @@ class ArticleAction extends HomeAction
             $delIds[] = $getId;
         }
         if (empty($delIds)) {
-            $this->error('请选择您要删除的幻灯片');
+            $this->error('请选择您要删除的文章');
         }
         $arrMap['id'] = array('in', $delIds);
         if(D('Article')->where($arrMap)->delete()){
